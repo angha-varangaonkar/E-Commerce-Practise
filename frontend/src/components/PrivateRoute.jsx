@@ -17,7 +17,6 @@ function PrivateRoute({ allowrole }) {
   }
   return (
     <>
-      {location.pathname === '/dashboard' ? null : <Navbar />}
       <Outlet />
     </>
   );
